@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cpd4\\Music\\GITHUB\\Alura_CSharp_Antigo\\ByteBank\\01 - ByteBank\\01 - ByteBank.csproj",
-      "projectName": "01 - ByteBank",
-      "projectPath": "C:\\Users\\cpd4\\Music\\GITHUB\\Alura_CSharp_Antigo\\ByteBank\\01 - ByteBank\\01 - ByteBank.csproj",
+      "projectUniqueName": "C:\\Users\\cpd4\\Music\\GITHUB\\Alura_CSharp_Antigo\\ByteBank\\03 - ByteBank\\03 - ByteBank.csproj",
+      "projectName": "03 - ByteBank",
+      "projectPath": "C:\\Users\\cpd4\\Music\\GITHUB\\Alura_CSharp_Antigo\\ByteBank\\03 - ByteBank\\03 - ByteBank.csproj",
       "packagesPath": "C:\\Users\\cpd4\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cpd4\\Music\\GITHUB\\Alura_CSharp_Antigo\\ByteBank\\01 - ByteBank\\obj\\",
+      "outputPath": "C:\\Users\\cpd4\\Music\\GITHUB\\Alura_CSharp_Antigo\\ByteBank\\03 - ByteBank\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
