@@ -1,20 +1,33 @@
 ﻿using _05___ByteBank;
 
-Cliente gabriela = new Cliente();
-
-gabriela.nome = "Gabriela";
-gabriela.profissão = "Desenvolvedora C#";
-gabriela.cpf = "434.562.878-20";
+// Cliente gabriela = new Cliente();
+// gabriela.nome = "Gabriela";
+// gabriela.profissão = "Desenvolvedora C#";
+// gabriela.cpf = "434.562.878-20";
 
 ContaCorrente conta = new ContaCorrente();
-conta.titular = gabriela;
+
+// conta.titular = gabriela;
+
+// conta.titular = new Cliente();
+
+// conta.titular.nome = "Gabriela Costa";
+// conta.titular.cpf = "434.562.878-20";
+// conta.titular.profissão = "Desenvolvedora C#";
+
 conta.saldo = 500;
 conta.agencia = 563;
 conta.numero = 5634527;
 
-conta.titular.nome = "Gabriela Costa";
+if (conta.titular == null)
+{
+    Console.WriteLine("Ops, a referência em conta.titular é NULL");
+}
 
-Console.WriteLine(gabriela.nome);
-Console.WriteLine(conta.titular.nome);
+// Console.WriteLine(gabriela.nome);
+Console.WriteLine(conta.titular);
+// Console.WriteLine(conta.titular.nome);
+// Console.WriteLine(conta.titular.cpf);
+// Console.WriteLine(conta.titular.profissão);
 
 Console.ReadKey();
