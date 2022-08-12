@@ -4,11 +4,7 @@ public class ContaCorrente
 {
     private Cliente? _titular;
 
-    public Cliente? Titular
-    {
-        get;
-        set;
-    }
+    public Cliente? Titular { get; set; }
 
     public int agencia;
     public int numero;
