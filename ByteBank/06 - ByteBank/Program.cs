@@ -1,10 +1,17 @@
 ﻿using _06___ByteBank;
 
 ContaCorrente conta = new ContaCorrente();
+Cliente cliente = new Cliente();
 
-conta.DefinirSaldo(-10);
+cliente.nome = "Guilherme";
+cliente.cpf = "485.995.869-78";
+cliente.profissão = "Desenvolvedor";
 
-Console.WriteLine(conta.ObterSaldo());
+conta.Saldo = -10;
+conta.Titular = cliente;
+
+Console.WriteLine(conta.Titular.nome);
+Console.WriteLine(conta.Saldo);
 
 Console.ReadKey();
 
