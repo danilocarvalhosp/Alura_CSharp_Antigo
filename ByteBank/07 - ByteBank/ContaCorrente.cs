@@ -4,6 +4,8 @@ public class ContaCorrente
 {
     private Cliente? _titular;
 
+    public static int TotalDeContasCriadas { get; private set; }
+
     public Cliente? Titular { get; set; }
 
     private int _agencia;
@@ -52,6 +54,8 @@ public class ContaCorrente
     {
         Agencia = agencia;
         Numero = numero;
+
+        TotalDeContasCriadas++;
     }
 
     public bool Sacar(double valor)

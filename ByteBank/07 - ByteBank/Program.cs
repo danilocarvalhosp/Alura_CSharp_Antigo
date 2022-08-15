@@ -1,11 +1,14 @@
 ﻿using _07___ByteBank;
 
-ContaCorrente conta = new ContaCorrente(867, 86712540);
+Console.WriteLine(ContaCorrente.TotalDeContasCriadas);
 
-// conta.Numero = 86712540;
-// conta.Agencia = 867;
+ContaCorrente conta = new ContaCorrente(867, 86712540);
+Console.WriteLine(ContaCorrente.TotalDeContasCriadas);
 
 Console.WriteLine(conta.Agencia);
 Console.WriteLine(conta.Numero);
+
+ContaCorrente contaDaGabriela = new ContaCorrente(867, 86745820);
+Console.WriteLine(ContaCorrente.TotalDeContasCriadas);
 
 Console.ReadKey();
