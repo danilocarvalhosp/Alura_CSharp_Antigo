@@ -14,6 +14,12 @@ Diretor roberta = new Diretor();
 roberta.Nome = "Roberta";
 roberta.CPF = "454.658.148-30";
 roberta.Salario = 5000;
+
+Funcionario robertaTeste = roberta;
+
+Console.WriteLine($"Bonificação de uma referência de Diretor: {roberta.GetBonificacao()}");
+Console.WriteLine($"Bonificação de uma referência de Funcionário: {robertaTeste.GetBonificacao()}");
+
 gerenciador.Registrar(roberta);
 
 Console.WriteLine(carlos.Nome);
