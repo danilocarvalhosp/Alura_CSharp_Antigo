@@ -3,17 +3,19 @@ using ByteBank2.Funcionarios;
 
 GerenciadorBonificacao gerenciador = new GerenciadorBonificacao();
 
-Funcionario carlos = new Funcionario();
+Funcionario carlos = new Funcionario("546.879.157-20");
 
 carlos.Nome = "Carlos";
-carlos.CPF = "546.879.157-20";
 carlos.Salario = 2000;
 gerenciador.Registrar(carlos);
 
-Diretor roberta = new Diretor();
+Console.WriteLine(Funcionario.TotalDeFuncionarios);
+
+Diretor roberta = new Diretor("454.658.148-30");
 roberta.Nome = "Roberta";
-roberta.CPF = "454.658.148-30";
 roberta.Salario = 5000;
+
+Console.WriteLine(Funcionario.TotalDeFuncionarios);
 
 Funcionario robertaTeste = roberta;
 
