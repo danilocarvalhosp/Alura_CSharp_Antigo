@@ -1,38 +1,38 @@
 ﻿using ByteBank2;
 using ByteBank2.Funcionarios;
 
-GerenciadorBonificacao gerenciador = new GerenciadorBonificacao();
 
-Funcionario carlos = new Funcionario(2000, "546.879.157-20");
+internal class Program
+{
+    static void Main(string [] args)
+    {
+        CalcularBonificacao();
 
-carlos.Nome = "Carlos";
-gerenciador.Registrar(carlos);
+        Console.ReadKey();
+    }
 
-carlos.AumentarSalario();
+    public static void CalcularBonificacao()
+    {
+        GerenciadorBonificacao gerenciadorBonificacao = new GerenciadorBonificacao();
 
-Console.WriteLine("Novo salário do carlos " + carlos.Salario);
+        Funcionario pedro = new Designer("833.222.048-39");
+        pedro.Nome = "Pedro";
 
-Console.WriteLine(Funcionario.TotalDeFuncionarios);
+        Funcionario roberta = new Diretor("159.753.398-04");
+        pedro.Nome = "Roberta";
 
-Diretor roberta = new Diretor("454.658.148-30");
-roberta.Nome = "Roberta";
+        Auxiliar igor = new Auxiliar("981.198.778-53");
+        igor.Nome = "Igor";
 
-Console.WriteLine(Funcionario.TotalDeFuncionarios);
+        GerenteDeContas camila = new GerenteDeContas("326.985.628-89");
+        camila.Nome = "Camila";
 
-roberta.AumentarSalario();
-Console.WriteLine("Novo salário de roberta " + roberta.Salario);
+        gerenciadorBonificacao.Registrar(pedro);
+        gerenciadorBonificacao.Registrar(roberta);
+        gerenciadorBonificacao.Registrar(igor);
+        gerenciadorBonificacao.Registrar(camila);
 
-Funcionario robertaTeste = roberta;
+        Console.WriteLine($"Total de bonificações do mês: {gerenciadorBonificacao.GetTotalBonificacao()}");
+    }
 
-Console.WriteLine($"Bonificação de uma referência de Diretor: {roberta.GetBonificacao()}");
-Console.WriteLine($"Bonificação de uma referência de Funcionário: {robertaTeste.GetBonificacao()}");
-
-gerenciador.Registrar(roberta);
-
-Console.WriteLine(carlos.Nome);
-Console.WriteLine(carlos.GetBonificacao());
-
-Console.WriteLine(roberta.Nome);
-Console.WriteLine(roberta.GetBonificacao());
-
-Console.WriteLine($"Total de bonificações: {gerenciador.GetTotalBonificacao()}");
+}
