@@ -1,14 +1,31 @@
 ﻿using ByteBank2;
 using ByteBank2.Funcionarios;
-
+using ByteBank2.Sistema;
 
 internal class Program
 {
     static void Main(string [] args)
     {
-        CalcularBonificacao();
+        // CalcularBonificacao();
+
+        UsarSistema();
 
         Console.ReadKey();
+    }
+
+    public static void UsarSistema()
+    {
+        SistemaInterno sistemaInterno = new SistemaInterno();
+        Diretor roberta = new Diretor("159.753.398-04");
+        roberta.Nome = "Roberta";
+        roberta.Senha = "123";
+
+        sistemaInterno.Logar(roberta, "123");
+        sistemaInterno.Logar(roberta, "abc");
+
+        GerenteDeContas camila = new GerenteDeContas("326.985.628-89");
+        camila.Nome = "Camila";
+        camila.Senha = "abc";
     }
 
     public static void CalcularBonificacao()
