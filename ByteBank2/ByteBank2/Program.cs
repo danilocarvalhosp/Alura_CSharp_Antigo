@@ -3,19 +3,24 @@ using ByteBank2.Funcionarios;
 
 GerenciadorBonificacao gerenciador = new GerenciadorBonificacao();
 
-Funcionario carlos = new Funcionario("546.879.157-20");
+Funcionario carlos = new Funcionario(2000, "546.879.157-20");
 
 carlos.Nome = "Carlos";
-carlos.Salario = 2000;
 gerenciador.Registrar(carlos);
+
+carlos.AumentarSalario();
+
+Console.WriteLine("Novo salário do carlos " + carlos.Salario);
 
 Console.WriteLine(Funcionario.TotalDeFuncionarios);
 
 Diretor roberta = new Diretor("454.658.148-30");
 roberta.Nome = "Roberta";
-roberta.Salario = 5000;
 
 Console.WriteLine(Funcionario.TotalDeFuncionarios);
+
+roberta.AumentarSalario();
+Console.WriteLine("Novo salário de roberta " + roberta.Salario);
 
 Funcionario robertaTeste = roberta;
 
