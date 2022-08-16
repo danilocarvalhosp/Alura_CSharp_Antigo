@@ -27,10 +27,14 @@ internal class Program
         GerenteDeContas camila = new GerenteDeContas("326.985.628-89");
         camila.Nome = "Camila";
 
+        Desenvolvedor guilherme = new Desenvolvedor("456.175.468-20");
+        guilherme.Nome = "Guilherme";
+
         gerenciadorBonificacao.Registrar(pedro);
         gerenciadorBonificacao.Registrar(roberta);
         gerenciadorBonificacao.Registrar(igor);
         gerenciadorBonificacao.Registrar(camila);
+        gerenciadorBonificacao.Registrar(guilherme);
 
         Console.WriteLine($"Total de bonificações do mês: {gerenciadorBonificacao.GetTotalBonificacao()}");
     }
