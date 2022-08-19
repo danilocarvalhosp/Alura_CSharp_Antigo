@@ -8,8 +8,17 @@ namespace ByteBank
 {
     public class SaldoInsuficienteException : Exception
     {
+        public double Saldo { get; }
+        public double Saque { get; }
+
         public SaldoInsuficienteException()
         {
+        }
+
+        public SaldoInsuficienteException(double saldo, double valorSaque) : this($"Tentativa de saque no valor de {valorSaque} em uma conta com saldo de {saldo}.")
+        {
+            Saldo = saldo;
+            Saque = valorSaque;
         }
 
         public SaldoInsuficienteException(string mensagem) : base(mensagem)
