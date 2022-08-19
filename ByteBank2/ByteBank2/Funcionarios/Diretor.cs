@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ByteBank2.Funcionarios
 {
-    public class Diretor : Autenticavel
+    public class Diretor : FuncionarioAutenticavel
     {
         public Diretor(string cpf) : base(5000, cpf)
         {
@@ -25,6 +25,5 @@ namespace ByteBank2.Funcionarios
             // Salario = Salario * 1.15;            
             Salario *= 1.15;
         }
-
     }
 }
