@@ -16,3 +16,4 @@ E:\Cursos\C#\Alura\Alura_CSharp_Antigo\SistemaAgencia\ByteBank\ByteBank.SistemaA
 E:\Cursos\C#\Alura\Alura_CSharp_Antigo\SistemaAgencia\ByteBank\ByteBank.SistemaAgencia\bin\Debug\net6.0\ByteBank.Modelos.dll
 E:\Cursos\C#\Alura\Alura_CSharp_Antigo\SistemaAgencia\ByteBank\ByteBank.SistemaAgencia\bin\Debug\net6.0\ByteBank.Modelos.pdb
 E:\Cursos\C#\Alura\Alura_CSharp_Antigo\SistemaAgencia\ByteBank\ByteBank.SistemaAgencia\obj\Debug\net6.0\ByteBank.SistemaAgencia.csproj.CopyComplete
+E:\Cursos\C#\Alura\Alura_CSharp_Antigo\SistemaAgencia\ByteBank\ByteBank.SistemaAgencia\bin\Debug\net6.0\ByteBank.Modelos.xml

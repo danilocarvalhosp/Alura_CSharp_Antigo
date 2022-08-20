@@ -5,15 +5,34 @@ internal class Program
 {
     private static void Main(string [] args)
     {
-        ContaCorrente conta = new ContaCorrente(847, 489754);
+        DateTime dataFimPagamento = new DateTime(2022, 09, 21);
+        DateTime dataCorrente = DateTime.Now;
 
-        conta.Sacar();
+        TimeSpan diferenca = dataFimPagamento - dataCorrente;
+        //Console.WriteLine(dataFimPagamento);
+        ///Console.WriteLine(dataCorrente);
 
-        // AutenticacaoHelper teste;
+        string mensagem = "Vencimento em " + GetIntervaloDeTempoLegivel(diferenca);
 
-        Console.WriteLine(conta.Numero);
-        Console.ReadKey();
+        Console.WriteLine(mensagem);
 
+        static string GetIntervaloDeTempoLegivel(TimeSpan timespan)
+        {
+            if (timespan.Days > 30)
+            {
+                int qtdeMeses = timespan.Days / 30;
+                if (qtdeMeses == 1)
+                {
+                    return "1 mês";
+                }
+                return qtdeMeses + " meses";
+            }
+            else if (timespan.Days > 7){
+                int qtdeSemanas = timespan.Days / 7;
+            }  
+
+            return timespan.Days + " dias.";
+        }
     }
 }
 
