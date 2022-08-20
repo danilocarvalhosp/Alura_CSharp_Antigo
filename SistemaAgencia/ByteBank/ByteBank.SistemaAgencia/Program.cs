@@ -7,8 +7,7 @@ internal class Program
     {
         ContaCorrente conta = new ContaCorrente(847, 489754);
 
-        FuncionarioAutenticavel carlos = null;
-        carlos.Autenticar("sldjfsklfslfjsl");
+        conta.Sacar();
 
         // AutenticacaoHelper teste;
 
