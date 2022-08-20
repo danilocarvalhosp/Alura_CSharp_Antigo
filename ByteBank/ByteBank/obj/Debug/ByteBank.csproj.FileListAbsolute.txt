@@ -6,3 +6,11 @@ C:\Users\cpd4\Music\GITHUB\Alura_CSharp_Antigo\ByteBank\ByteBank\obj\Debug\ByteB
 C:\Users\cpd4\Music\GITHUB\Alura_CSharp_Antigo\ByteBank\ByteBank\obj\Debug\ByteBank.csproj.CoreCompileInputs.cache
 C:\Users\cpd4\Music\GITHUB\Alura_CSharp_Antigo\ByteBank\ByteBank\obj\Debug\ByteBank.exe
 C:\Users\cpd4\Music\GITHUB\Alura_CSharp_Antigo\ByteBank\ByteBank\obj\Debug\ByteBank.pdb
+E:\Cursos\C#\Alura\Alura_CSharp_Antigo\ByteBank\ByteBank\bin\Debug\ByteBank.exe.config
+E:\Cursos\C#\Alura\Alura_CSharp_Antigo\ByteBank\ByteBank\bin\Debug\ByteBank.exe
+E:\Cursos\C#\Alura\Alura_CSharp_Antigo\ByteBank\ByteBank\bin\Debug\ByteBank.pdb
+E:\Cursos\C#\Alura\Alura_CSharp_Antigo\ByteBank\ByteBank\obj\Debug\ByteBank.csproj.AssemblyReference.cache
+E:\Cursos\C#\Alura\Alura_CSharp_Antigo\ByteBank\ByteBank\obj\Debug\ByteBank.csproj.SuggestedBindingRedirects.cache
+E:\Cursos\C#\Alura\Alura_CSharp_Antigo\ByteBank\ByteBank\obj\Debug\ByteBank.csproj.CoreCompileInputs.cache
+E:\Cursos\C#\Alura\Alura_CSharp_Antigo\ByteBank\ByteBank\obj\Debug\ByteBank.exe
+E:\Cursos\C#\Alura\Alura_CSharp_Antigo\ByteBank\ByteBank\obj\Debug\ByteBank.pdb
