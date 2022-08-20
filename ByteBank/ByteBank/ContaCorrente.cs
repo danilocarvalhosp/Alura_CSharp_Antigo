@@ -94,7 +94,7 @@ namespace ByteBank
             catch (SaldoInsuficienteException ex)
             {
                 ContadorTransferenciasNaoPermitidos++;
-                throw;
+                throw new OperacaoFinanceiraException("Operação não realizada", ex);
             }
 
             
