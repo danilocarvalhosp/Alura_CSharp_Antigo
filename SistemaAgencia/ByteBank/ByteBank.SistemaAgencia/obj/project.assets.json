@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Cursos\\C#\\Alura\\Alura_CSharp_Antigo\\ByteBank2\\ByteBank2\\ByteBank2.csproj",
-      "projectName": "ByteBank2",
-      "projectPath": "E:\\Cursos\\C#\\Alura\\Alura_CSharp_Antigo\\ByteBank2\\ByteBank2\\ByteBank2.csproj",
+      "projectUniqueName": "E:\\Cursos\\C#\\Alura\\Alura_CSharp_Antigo\\SistemaAgencia\\ByteBank\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj",
+      "projectName": "ByteBank.SistemaAgencia",
+      "projectPath": "E:\\Cursos\\C#\\Alura\\Alura_CSharp_Antigo\\SistemaAgencia\\ByteBank\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj",
       "packagesPath": "C:\\Users\\Danilo\\.nuget\\packages\\",
-      "outputPath": "E:\\Cursos\\C#\\Alura\\Alura_CSharp_Antigo\\ByteBank2\\ByteBank2\\obj\\",
+      "outputPath": "E:\\Cursos\\C#\\Alura\\Alura_CSharp_Antigo\\SistemaAgencia\\ByteBank\\ByteBank.SistemaAgencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Danilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
