@@ -1,10 +1,44 @@
 ﻿using System;
+using System.IO;
 
 namespace ByteBank
 {
     class Program
     {
         static void Main(string [] args)
+        {
+            CarregarContas();
+            Console.WriteLine("Execução finalizada. Tecle enter para sair.");
+            Console.ReadLine();
+        }
+
+        private static void CarregarContas()
+        {
+            LeitorDeArquivo leitor = null;
+
+            try
+            {
+                leitor = new LeitorDeArquivo("contasl.txt");
+
+                leitor.LerProximaLinha();
+                leitor.LerProximaLinha();
+                leitor.LerProximaLinha();
+            }
+            catch (IOException)
+            {
+                Console.WriteLine("Exceção do tipo IOException capturada e tratada.");
+            }
+            finally
+            {
+                if (leitor != null)
+                {
+                    leitor.Fechar();
+                }
+            }
+
+        }
+
+        private static void TestaInnerException()
         {
             try
             {
@@ -39,7 +73,6 @@ namespace ByteBank
                 Console.WriteLine("Aconteceu um erro!");
             }
 
-            Console.ReadLine();
         }
 
         //Teste com a cadeia de chamada:
